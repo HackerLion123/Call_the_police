@@ -6,9 +6,11 @@ Give a video feed as input and it will provide proper predictions
 Live Web cam feed also can be given
 
 ## Dependencies
-numpy
-opencv
-h5py
+pip install numpy opencv h5py ####For python 2.7+
+
+            or
+
+pip3 install numpy opencv h5py ####For python 3.7+
 
 
 ### To add CCTVs
