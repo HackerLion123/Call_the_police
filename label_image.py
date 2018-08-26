@@ -136,8 +136,9 @@ def predict(file_name):
 
   result = "{:0.5f}".format(results[i])
   print(result)
-  if float(result) >= 0.9:
+  if float(result) >= 0.8:
     return labels[i]
 
   return 0
 
+predict('vlcsnap-2018-08-26-08h40m33s232.png')
